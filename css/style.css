@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	background-color: #1a1a1a;
+	padding: 16px 40px;
+}
+.navbar .navbar-brand{
+	font-size: 26px;
+	font-weight: 650;
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+.navbar .navbar-nav .nav-link:hover{
+	color: #00ffcc;
+}
+
+.navbar .btn{
+	padding: 7px 20px;
+	border-radius: 30px;
+	color: black;
+	font-size: 17px;
+	font-weight: 500;
+	background-color: #00ffcc;
+}
+.navbar .btn:hover{
+	color: white;
+	background-color: #00cca3;
+}
+.mid{
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.mid img{
+	width: 100%;
+	height: 100%;
+	
+}
+.hero{
+	position: absolute;
+}
+.hero h2{
+	font-size: 65px;
+	font-weight: 800;
+	color: white;
+}
+.hero p{
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 35px;
+	letter-spacing: 0.2px;
+}
+.hero a{
+	text-decoration: none;
+	background-color: #00ffcc;
+	padding: 11px 23px;
+	color: black;
+	font-size: 23px;
+	border-radius: 30px;
+	font-weight: 600;
+	transition: 0.3s ease;
+}
+.hero a:hover{
+	color: white;
+	background-color: #00cca3;
+
+}
+#about-section h4{
+	color: #00cca3;
+}
+
+#services1{
+	border-radius: 20px; 
+	background-color: white;
+}
+#services-heading{
+	   color: black;
+}
+#services{
+	background-color: black;
+}
+.album #services1 h6{
+	color: black;
+}
+#Portfolio img{
+	transition: 0.5s ease-in-out;
+}
+#Portfolio img:hover{
+	transform: scale(1.05);
+}
+#Portfolio h1{
+	color: black;
+}
+#Portfolio a{
+	color: white;
+	background-color: black;
+}
+
+.album #services1 p{
+	color: black;
+}
+#contact h2{
+	color: black;
+}
+#contact .text-center p{
+	color: black;
+}
+#contact #send-btn{
+	background-color: black;
+	color: white;
+}
+
+
+#footer{
+	background-color: black;
+	padding-top: 0;
+}
+
+
+
+@media (max-width: 992px){
+
+	.mid{
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.mid img{
+	width: 100%;
+	height: 100%;
+	
+}
+.hero{
+	position: absolute;
+}
+.hero h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+}
+.hero p{
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	margin-bottom: 30px;
+	width: 55%;
+	letter-spacing: 0.2px;
+}
+.hero a{
+	text-decoration: none;
+	background-color: #198754;
+	padding: 10px 22px;
+	color: black;
+	font-size: 20px;
+	border-radius: 30px;
+	font-weight: 600;
+	transition: 0.3s ease;
+}
+.hero a:hover{
+	color: white;
+	background-color: #20ac6b;
+
+}
+
+}
+
+@media (max-width: 774px){
+
+   	.mid{
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+}
+
+.hero .hero1, .hero2, .hero3{
+	display: none;
+}
+
+}
